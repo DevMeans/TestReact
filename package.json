@@ -13,7 +13,8 @@
   "dependencies": {
     "@types/jest": "^29.5.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "whatwg-fetch": "^3.6.18"
   },
   "devDependencies": {
     "@babel/core": "^7.22.15",

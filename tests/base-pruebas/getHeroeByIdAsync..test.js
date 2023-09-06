@@ -18,7 +18,7 @@ describe('pruebas en getHeroeByIdAsync', () => {
         const id=100
         getHeroeByIdAsync(id).catch(
             error=>{
-                console.log(error)
+          //      console.log(error)
                  expect(error).toBe('No se pudo encontrar el héroe')
                  done()
             }
