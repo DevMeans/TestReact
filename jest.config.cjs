@@ -1,9 +1,9 @@
 module.exports = {
   // Otras opciones de configuración de Jest...
-  //TODO:JSON
+  // TODO: JSON
   setupFiles: ["./jest.setup.js"],
   transform: {
-    "^.+\\.js$": "babel-jest",
+    '^.+\\.jsx?$': 'babel-jest',/*aca tiene que ser js para archivos jsx o jsx para estos*/
   },
   testEnvironment: "jest-environment-jsdom",
 };
