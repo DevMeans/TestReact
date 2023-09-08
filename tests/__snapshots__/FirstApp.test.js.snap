@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en FirstApp Debe hacer macth con el snapshot 1`] = `
+<div>
+  <p>
+    Soy 
+    Myriam
+  </p>
+  <p>
+    No hay apellido
+  </p>
+  <span>
+    32
+  </span>
+</div>
+`;
