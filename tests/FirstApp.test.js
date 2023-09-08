@@ -5,7 +5,7 @@ describe("Pruebas en FirstApp", () => {
   test("Debe hacer macth con el snapshot", () => {
     const { container } = render(<FirstApp title={title} />);
     expect(container).toMatchSnapshot();
-  });
+});
   test('Debe de mostrar el mensaje "Hola Myriam"', () => { 
     render(<FirstApp title={title} />)
     expect(screen.getByText('Soy '+title)).toBeTruthy()
