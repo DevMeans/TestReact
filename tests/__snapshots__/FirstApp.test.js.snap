@@ -2,10 +2,10 @@
 
 exports[`Pruebas en FirstApp Debe hacer macth con el snapshot 1`] = `
 <div>
-  <p>
+  <h1>
     Soy 
     Myriam
-  </p>
+  </h1>
   <p>
     No hay apellido
   </p>

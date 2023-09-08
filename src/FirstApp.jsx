@@ -4,7 +4,7 @@ export const FirstApp = ({ title, edad, apellido }) => {
     <>
       {/* <div>FirstApp</div>*/}
 
-      <p>Soy {title}</p> 
+      <h1>Soy {title}</h1> 
       <p>{apellido}</p>
       <span>{edad}</span>
     
